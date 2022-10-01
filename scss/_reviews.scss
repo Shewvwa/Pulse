@@ -1,0 +1,35 @@
+.reviews{
+    height: 936px;
+    h2{
+        font-weight: 700;
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 60px;
+    }
+    &_block{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+        &_img{
+            img{
+                display: flex;
+                margin-right: 61px;
+            }
+        }
+    }
+    &_name{
+        font-weight: 700;
+        font-size: 18px;
+    }
+    &_subname{
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        color: #646464;
+    }
+    &_decsr{
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+    }
+}

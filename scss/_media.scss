@@ -1,0 +1,157 @@
+@media (max-width: 900px){
+    .reviews{
+        height: 1025px;
+    }
+}
+
+
+@media (max-width: 767px){
+    .consultation{ 
+        .title{
+        width: 100%;
+        }
+    }
+    .carousel{
+        .carousel_inner{
+            width: 60%;
+            .slick-slide{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .catalog{
+        &_item{
+            width: 359px;
+        }
+    }
+    .reviews{
+        height: 1251px;
+    }
+}
+
+@media (max-width: 575px){
+    .promo{
+        .header_logo {
+            width: 171px;
+        }
+        .header_official{
+            font-size: 10px;
+            span{
+                font-size: 14px;
+            }
+        }
+        .header_phone{
+            font-size: 16px;
+        }
+    }
+    .subpromo{
+        padding: 32px 0 64px 0;
+    }
+    .consultation{ 
+        .title{
+        width: 100%;
+        }
+    }
+    .carousel{
+        .carousel_inner{
+            width: 60%;
+            .slick-slide{
+                img{
+                    width: 100%;
+                }
+            }
+        }
+    }
+    .catalog{
+        .catalog_tab{
+            width: 153px;
+            font-size: 14px;
+        }
+        &_item{
+            width: 270px;
+        }
+    }
+    .reviews{
+        height: 1300px;
+    }
+}
+@media (max-width: 415px){
+    .promo{
+        .header_official{
+            display: none;
+        }
+        .header_logo{
+            width: 205px;
+        }
+        &_icons{
+            width: 380px;
+        }
+    }
+    .subpromo{
+        height: 800px;
+        &_icons{
+            flex-direction: column;
+        }
+        &_icon{
+            width: 100%;
+        }
+        &_subtitle{
+            margin-bottom: 20px;
+        }
+    }
+    .consultation{
+        &_descr{
+            width: 100%;
+        }
+    }
+    .catalog{
+        h2{
+            font-size: 25px;
+        }
+        .catalog_tab{
+            width: 114px;
+            font-size: 12px;
+        }
+        &_item{
+            width: 332px;
+            margin: 0 auto;
+            margin-bottom: 20px;
+            &_descr{
+                padding: 0 10px;
+            }
+        }
+    }
+    .reviews{
+        height: 1810px;
+        &_block{
+            flex-direction: column;
+            &_img{
+                img{
+                    margin: 0 auto;
+                    margin-bottom: 25px;
+                }
+            }
+        }
+        &_name{
+            text-align: center;
+        }
+        &_subname{
+            text-align: center;
+        }
+        &_decsr{
+            margin: 0 auto;
+            text-align: center;
+            width: 90%;
+        }
+    }
+    .footer{
+        &_info{
+            width: 100%;
+        }
+        &_phone{
+            margin-bottom: 19px;
+        }
+    }
+}

@@ -1,0 +1,49 @@
+.subpromo{
+    height: 470px;
+    background: #F6F6F6;
+    padding: 70px 0 64px 0;
+    &_title{
+        margin-bottom: 60px;
+        h2{
+            font-weight: 700;
+            font-size: 30px;
+            color: #0D0D0D;
+            text-align: center;
+        }
+    }
+    &_icons{
+        display: flex;
+        justify-content: space-between;
+
+        font-weight: 700;
+        font-size: 18px;
+        color: #0D0D0D;
+        text-align: center;
+    }
+    &_icon{
+        width: 269px;
+        text-align: center;
+        img{
+            display: block;
+            margin: 0 auto;
+            margin-bottom: 35px;
+        }
+    }
+    &_icones{
+        &_animated{
+            animation-name: heartbeat;
+            animation-duration: 2s;
+            animation-timing-function: ease;
+            animation-iteration-count: infinite;
+        }
+    }
+    &_subtitle{
+        margin-top: 20px;
+        font-weight: 300;
+        font-size: 14px;
+        span{
+            text-decoration-line: underline;
+            color: #FF0000;;
+        }
+    }
+}
