@@ -336,6 +336,7 @@
 }
 .catalog_content_active {
   display: flex;
+  justify-content: space-evenly;
 }
 .catalog_item {
   width: 303px;
